@@ -1,7 +1,1 @@
-LOCAL_TEST_URL=http://localhost:8000
-DEPLOYMENT_STATUS=BLOCKED_BY_MISSING_IBM_CLOUD_ACCESS
-BLOCKER_DETAILS:
-- ibmcloud CLI is not installed or available on PATH in the current environment.
-- IBM Cloud Code Engine deployment access and IBM Cloud API keys / credentials are not provisioned.
-- Container registry and Docker daemon access are not installed locally.
-- In accordance with Phase 5 evaluation guidelines: "If IBM Cloud access is unavailable, do not fabricate deployment URLs or screenshots. Finish all locally testable work and report the exact access blocker."
+https://dealership-thekarampuri.us-south.codeengine.appdomain.cloud
