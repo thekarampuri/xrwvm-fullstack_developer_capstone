@@ -1,11 +1,19 @@
-# Cars Dealership Review Application
+# fullstack_developer_capstone
 
-## Full Stack Developer Capstone Project
+## Repository Name
+`xrwvm-fullstack_developer_capstone`
+
+## Project Name
+`fullstack_developer_capstone`
+
+---
 
 ### Project Overview
-The **Cars Dealership Review Application** is a comprehensive, responsive full-stack web application designed for a national car retailer in the United States. The platform enables prospective car buyers and dealership visitors to browse dealership branches across all U.S. states, explore dealer details, view customer reviews with automated sentiment analysis, and register/log in to submit verified dealership reviews.
+The **fullstack_developer_capstone** (Cars Dealership Review Application) is a comprehensive, responsive full-stack web application designed for a national car retailer in the United States. The platform enables prospective car buyers and dealership visitors to browse dealership branches across all U.S. states, explore dealer details, view customer reviews with automated sentiment analysis, and register/log in to submit verified dealership reviews.
 
 ### Architecture & Tech Stack
+- **Repository Name**: `xrwvm-fullstack_developer_capstone`
+- **Project Name**: `fullstack_developer_capstone`
 - **Frontend**: React.js single-page application with React Router, Bootstrap 5, and responsive custom CSS styling.
 - **Backend Application Server**: Django 4.2 framework exposing RESTful API endpoints for user authentication (session/token auth), dealer data proxying, review dispatching, and car inventory management.
 - **Relational Database**: SQLite / Django ORM managing `CarMake` and `CarModel` entities with Django Admin integration.

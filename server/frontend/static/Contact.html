@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - Dealerships</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/static/style.css">
   <link rel="stylesheet" href="/static/bootstrap.min.css">
 </head>
-<body>
+<div>
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
     <div class="container-fluid">
       <h2 style="padding-right: 5%;">Dealerships</h2>
@@ -32,54 +26,24 @@
     </div>
   </nav>
 
-  <div class="card" style="width: 80%; margin: auto; margin-top: 3%; margin-bottom: 3%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <div class="banner p-4" style="background: linear-gradient(135deg, #e0f7fa 0%, #ffffff 100%); border-radius: 12px 12px 0 0;">
-      <h1 class="text-primary fw-bold">Contact Best Cars Dealership</h1>
-      <p class="lead text-secondary mt-2">
-        Have questions about a dealership, vehicle purchase, or customer review? Our nationwide support team is here to assist you 24/7.
-      </p>
+  <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
+    <div class="banner" name="contact-header">
+      <h1>Contact Us</h1>
     </div>
-
-    <div class="p-4" style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 30px;">
-      
-      <div style="flex: 1; min-width: 300px;">
-        <img src="/static/contactus.png" alt="Contact Us" class="img-fluid rounded shadow-sm" style="max-height: 340px; width: 100%; object-fit: contain;">
+    <div style="display: flex; flex-direction: row; margin:auto; padding: 20px;">
+      <div style="width: 40%; margin-right: 20px;">
+        <img src="/static/contactus.png" alt="Contact Us" style="width: 100%;">
       </div>
-
-      <div style="flex: 1; min-width: 320px;">
-        <div class="card p-4 border-0" style="background-color: #f8fafc; border-radius: 10px;">
-          <h4 class="fw-bold text-dark mb-3">Headquarters & Support Details</h4>
-          
-          <div class="mb-3">
-            <h6 class="text-primary fw-bold mb-1">📍 National Headquarters</h6>
-            <p class="text-muted mb-0">1000 Dealership Parkway, Suite 500<br>Detroit, MI 48226, United States</p>
-          </div>
-
-          <div class="mb-3">
-            <h6 class="text-primary fw-bold mb-1">📞 Customer Service Phone</h6>
-            <p class="text-muted mb-0">Toll-Free: +1 (800) 555-CARS (2277)<br>Local Support: +1 (313) 555-0199</p>
-          </div>
-
-          <div class="mb-3">
-            <h6 class="text-primary fw-bold mb-1">✉️ Email Support</h6>
-            <p class="text-muted mb-0">
-              Customer Inquiries: <a href="mailto:support@dealerships.com">support@dealerships.com</a><br>
-              Corporate Relations: <a href="mailto:corporate@dealerships.com">corporate@dealerships.com</a>
-            </p>
-          </div>
-
-          <div class="mb-0">
-            <h6 class="text-primary fw-bold mb-1">🕒 Operating Hours</h6>
-            <p class="text-muted mb-0">
-              Monday – Friday: 8:00 AM – 9:00 PM EST<br>
-              Saturday: 9:00 AM – 7:00 PM EST<br>
-              Sunday: 10:00 AM – 5:00 PM EST
-            </p>
-          </div>
+      <div style="width: 60%; display: flex; flex-direction: column; justify-content: center;">
+        <div class="card-body">
+          <p class="title" style="font-size: 20px; font-weight: bold;">Contact Information</p>
+          <p class="card-text"><strong>Address:</strong> 1000 Dealership Parkway, Detroit, MI 48226, United States</p>
+          <p class="card-text"><strong>Phone Number:</strong> 1-800-555-CARS (2277)</p>
+          <p class="card-text"><strong>Customer Support Phone:</strong> +1 (313) 555-0199</p>
+          <p class="card-text"><strong>Email:</strong> support@dealerships.com</p>
         </div>
       </div>
-
     </div>
   </div>
-</body>
+</div>
 </html>
